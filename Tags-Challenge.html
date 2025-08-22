@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Semantic Elements Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+      color: #2c3e50;
+    }
+    article {
+      background-color: #ecf0f1;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    details {
+      margin-top: 10px;
+    }
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+    time {
+      color: #e67e22;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+    <video width="320" height="240" controls>
+        <source scr="what.mp4" type="video/mp4">
+        <source scr="what.ogg" type="video.ogg">
+    </video>
+
+  <article>
+    <h2>Upcoming Tech Conference</h2>
+    <p>The annual developer summit will take place on 
+      <time datetime="2025-09-15T09:00">September 15, 2025 at 9:00 AM</time>.
+    </p>
+
+    <details>
+      <summary>More Details</summary>
+      <p>This event will feature keynotes from industry leaders, hands-on workshops, and networking opportunities for developers across the globe.</p>
+    </details>
+  </article>
+
+</body>
+</html>

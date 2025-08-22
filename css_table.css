@@ -1,0 +1,27 @@
+<style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #2c3e50;
+      color: white;
+    }
+    td {
+      background-color: #ecf0f1;
+    }
+    td:hover {
+        background-color: yellow;
+        color: blue;
+    }
+    tr, td {
+        background-color: bisque;
+        color:darkblue
+    }
+  </style>
